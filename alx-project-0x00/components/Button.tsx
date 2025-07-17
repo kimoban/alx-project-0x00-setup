@@ -1,4 +1,4 @@
-import { ButtonProps } from "@/interfaces"
+import { ButtonProps } from "@/next.config"
 
 const Button: React.FC<ButtonProps> = ({ 
   title, 
