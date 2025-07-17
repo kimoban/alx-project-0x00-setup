@@ -1,6 +1,3 @@
-Here's a clear, well-structured README.md file for your Next.js Airbnb clone project:
-
-markdown
 # Airbnb Clone - Next.js Project
 
 A modern Airbnb UI clone built with **Next.js**, **TypeScript**, and **Tailwind CSS**, following best practices in component architecture, routing, and styling.
@@ -15,7 +12,8 @@ A modern Airbnb UI clone built with **Next.js**, **TypeScript**, and **Tailwind 
 - Responsive design
 - ESLint for code quality
 
-## 📂 Project Structure
+## 📂 Project Structure  
+
 alx-project-0x00/
 ├── components/
 │ ├── Card.tsx # Property listing card
@@ -39,18 +37,21 @@ text
 ## 🛠️ Setup
 
 1. **Clone the repository**
+
    ```bash
    git clone [your-repo-url]
    cd alx-project-0x00
-Install dependencies
+   ```
 
-bash
-npm install
-Run the development server
+Install dependencies:
 
-bash
+   ```bash
+    npm install
+    Run the development server
+
 npm run dev
 Open http://localhost:3000
+    ```
 
 🎯 Tasks Completed
 Project Scaffolding
@@ -74,10 +75,10 @@ Static Assets
 Added optimized images in public/assets/images/
 
 🔗 Routes
-Page	Route
-Home	/
-Landing	/landing
-About	/about
+Page Route
+Home/
+Landing/landing
+About/about
 💡 Best Practices
 ✔️ Type-safe components with TypeScript
 ✔️ Modular component structure
@@ -92,7 +93,8 @@ text
 
 ---
 
-### Key Features of This README:
+### Key Features of This README
+
 1. **Visual Hierarchy** - Clear sections with emoji icons
 2. **Task Documentation** - Lists all completed tasks
 3. **Project Structure** - Tree view for easy navigation
