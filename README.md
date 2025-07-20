@@ -24,11 +24,11 @@ By completing this project, you will:
 
 ## 📁 Project Structure  
 alx-project-0x00-setup/  
-├── components/  
+├── components/    
 │   ├── Button.tsx        # Dynamic button component  
 │   ├── Card.tsx         # Card UI with embedded Pill components  
 │   └── Pill.tsx         # Pill badges with dynamic titles  
-├── interfaces/
+├── interfaces/  
 │   └── index.ts         # TypeScript interfaces for props  
 ├── pages/
 │   ├── index.tsx        # Entry point (home)  
