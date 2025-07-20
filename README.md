@@ -4,40 +4,40 @@ This project is a Next.js-based application designed to help you learn and apply
 ## 📚 Learning Objectives
 By completing this project, you will:
 
-✅ Understand how to scaffold and structure a Next.js project with TypeScript
-✅ Implement basic routing using the Pages Router (not App Router)
-✅ Create reusable, dynamic React components with props and interfaces
-✅ Manage static assets and apply utility-first styling with Tailwind CSS
-✅ Learn how to compose UIs using modular components like Card, Pill, and Button
-✅ Gain experience using TypeScript interfaces for strong type safety
-✅ Configure and use ESLint for maintaining code quality and consistency
+✅ Understand how to scaffold and structure a Next.js project with TypeScript  
+✅ Implement basic routing using the Pages Router (not App Router)  
+✅ Create reusable, dynamic React components with props and interfaces  
+✅ Manage static assets and apply utility-first styling with Tailwind CSS  
+✅ Learn how to compose UIs using modular components like Card, Pill, and Button  
+✅ Gain experience using TypeScript interfaces for strong type safety  
+✅ Configure and use ESLint for maintaining code quality and consistency  
 ✅ Implement responsive layouts following design system principles  
 
 ## 🛠️ Tech Stack
 ### Tool	Purpose
-[Next.js v13+]	React Framework for hybrid static & SSR
-[TypeScript]	Strongly typed JavaScript
-[Tailwind CSS]	Utility-first styling framework
-[ESLint]	Code linting and formatting
-[Node.js v16+]	JavaScript runtime
-[VS Code]	Recommended IDE for development  
+[Next.js v13+]	React Framework for hybrid static & SSR  
+[TypeScript]	Strongly typed JavaScript  
+[Tailwind CSS]	Utility-first styling framework  
+[ESLint]	Code linting and formatting  
+[Node.js v16+]	JavaScript runtime  
+[VS Code]	Recommended IDE for development   
 
-## 📁 Project Structure
-alx-project-0x00-setup/
-├── components/
-│   ├── Button.tsx       # Dynamic button component
-│   ├── Card.tsx         # Card UI with embedded Pill components
-│   └── Pill.tsx         # Pill badges with dynamic titles
+## 📁 Project Structure  
+alx-project-0x00-setup/  
+├── components/  
+│   ├── Button.tsx        # Dynamic button component  
+│   ├── Card.tsx         # Card UI with embedded Pill components  
+│   └── Pill.tsx         # Pill badges with dynamic titles  
 ├── interfaces/
-│   └── index.ts         # TypeScript interfaces for props
+│   └── index.ts         # TypeScript interfaces for props  
 ├── pages/
-│   ├── index.tsx        # Entry point (home)
-│   ├── landing.tsx      # Landing page using components
-│   └── about.tsx        # Basic About page
-├── public/              # Static assets
-├── styles/              # Global styles (Tailwind CSS)
-├── tsconfig.json        # TypeScript configuration
-└── .eslintrc.js         # ESLint configuration
+│   ├── index.tsx        # Entry point (home)  
+│   ├── landing.tsx      # Landing page using components  
+│   └── about.tsx        # Basic About page  
+├── public/              # Static assets  
+├── styles/              # Global styles (Tailwind CSS)  
+├── tsconfig.json        # TypeScript configuration  
+└── .eslintrc.js         # ESLint configuration  
 
 ## 🚦 Key Features & Implemented Tasks
 ### ✅ Basic Routing
@@ -68,16 +68,16 @@ npm install
 npm run dev -- -p 3000
 
 6. Open in Browser
-Visit http://localhost:3000/landing
-Visit http://localhost:3000/about
-### 🧹 Code Quality & Conventions
-✅ Strict TypeScript typing using React.FC and interfaces
+Visit http://localhost:3000/landing  
+Visit http://localhost:3000/about  
+### 🧹 Code Quality & Conventions  
+✅ Strict TypeScript typing using React.FC and interfaces  
 
-✅ Reusable components with props for flexibility
+✅ Reusable components with props for flexibility  
 
-✅ Utility-first styling via Tailwind CSS
+✅ Utility-first styling via Tailwind CSS 
 
-✅ ESLint enforced consistent syntax, spacing, and practices
+✅ ESLint enforced consistent syntax, spacing, and practices  
 
 ✅ Clean and maintainable modular architecture
 
